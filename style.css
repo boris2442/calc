@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+
+margin-top: 100px;
+border-radius: 7px;
+    height: 300px;
+    background-color: orange;
+}
+.container form{
+    display: grid;
+    gap:5px;
+    padding-top: 20px;
+    padding-left: 30px;
+    align-items: center;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr ;
+    justify-content: center;
+    margin: 0 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "box box box box"
+    "ac rem pourcent div"
+    "sept huit neuf fois"
+    "quatre cinq six moins"
+    "un deux trois plus"
+    "ret zero point egale";
+}
+button{
+    font-size: 1.3rem;
+    width: 40px;
+    border: none;
+    height: 40px;
+    border-radius: 50%;
+}
+.box{
+    grid-area: box;
+}
+
+
+.ac{
+    grid-area: ac;
+}
+.rem{
+    grid-area:rem ;
+}
+.pourcent{
+    grid-area:pourcent ;
+}
+.div{
+    grid-area:div ;
+}
+.sept{
+    grid-area:sept ;
+}
+.huit{
+    grid-area:huit ;
+}
+.neuf{
+    grid-area:neuf ;
+}
+.fois{
+    grid-area:fois ;
+}
+.quatre{
+    grid-area:quatre ;
+}
+.cinq{
+    grid-area:cinq ;
+}
+.six{
+    grid-area:six ;
+}
+.moins{
+    grid-area:moins ;
+}
+.un{
+    grid-area:un ;
+}
+.deux{
+    grid-area: deux;
+}
+.trois{
+    grid-area: trois;
+}
+.plus{
+    grid-area:plus;
+}
+.ret{
+    grid-area: ret;
+}
+.zero{
+    grid-area: zero;
+}
+.point{
+    grid-area: point;
+}
+.egale{
+    grid-area: egale;
+}
